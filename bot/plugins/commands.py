@@ -11,7 +11,7 @@ async def start(bot, update):
     
     buttons = [[
         InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/MovieNight120'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+        InlineKeyboardButton('Source Code 📜', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
     ],[
