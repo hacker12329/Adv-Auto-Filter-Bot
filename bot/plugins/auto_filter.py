@@ -353,10 +353,10 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     
     if cb_data == "start":
         buttons = [[
-            InlineKeyboardButton('My Dev 👨‍🔬', url='https://t.me/AlbertEinstein_TG'),
-            InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AlbertEinsteinTG/Adv-Auto-Filter-Bot')
+            InlineKeyboardButton('♻️𝗚𝗿𝗼𝘂𝗽', url='https://t.me/MovieNight120'),
+            InlineKeyboardButton('𝑴𝑶𝑽𝑰𝑬 𝑵𝑰𝑮𝑯𝑻', url ='https://t.me/joinchat/HKLQU33m1l00NTI9')
         ],[
-            InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+            InlineKeyboardButton('𝘾𝙝𝙖𝙣𝙚𝙡📜', url='https://t.me/MovieNight124')
         ],[
             InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
@@ -373,7 +373,7 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     elif cb_data == "help":
         buttons = [[
             InlineKeyboardButton('Home 🏠', callback_data='start'),
-            InlineKeyboardButton('About 🚩', callback_data='about')
+            InlineKeyboardButton('About 🤠', callback_data='about')
         ],[
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
@@ -389,7 +389,7 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     
     elif cb_data == "about": 
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
         ]]
         
