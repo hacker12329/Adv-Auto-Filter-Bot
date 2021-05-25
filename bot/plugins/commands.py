@@ -10,10 +10,10 @@ from bot.translation import Translation # pylint: disable=import-error
 async def start(bot, update):
     
     buttons = [[
-        InlineKeyboardButton('♻️Group', url='https://t.me/MovieNight120'),
-        InlineKeyboardButton('chanel📜', url ='https://t.me/joinchat/HKLQU33m1l00NTI9')
+        InlineKeyboardButton('♻️𝑮𝑹𝑶𝑼𝑷', url='https://t.me/MovieNight120'),
+        InlineKeyboardButton('𝑴𝑶𝑽𝑰𝑬 𝑵𝑰𝑮𝑯𝑻', url ='https://t.me/joinchat/HKLQU33m1l00NTI9')
     ],[
-        InlineKeyboardButton('chanel2', url='https://t.me/MovieNight124')
+        InlineKeyboardButton('𝘾𝙝𝙖𝙣𝙣𝙚𝙡 📜', url='https://t.me/MovieNight124')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="Help")
     ]]
@@ -32,8 +32,8 @@ async def start(bot, update):
 @Client.on_message(filters.command("help") & filters.private)
 async def help(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('Home 🏠', callback_data='start'),
+        InlineKeyboardButton('About 🤠', callback_data='about')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
@@ -51,7 +51,7 @@ async def help(bot, update):
 @Client.on_message(filters.command("about") & filters.private)
 async def about(bot, update):
     buttons = [[
-        InlineKeyboardButton('Home ⚡', callback_data='start'),
+        InlineKeyboardButton('Home 🏠', callback_data='start'),
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
