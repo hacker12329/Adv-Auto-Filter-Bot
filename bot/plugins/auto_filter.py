@@ -358,7 +358,7 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
         ],[
             InlineKeyboardButton('𝘾𝙝𝙖𝙣𝙚𝙡📜', url='https://t.me/MovieNight124')
         ],[
-            InlineKeyboardButton('Help ⚙', callback_data="🤣🤣🤣🤣🤣🤣🤣🤣🤣")
+            InlineKeyboardButton('Help ⚙', callback_data="help")
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
