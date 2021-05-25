@@ -372,7 +372,7 @@ async def cb_handler(bot, query:CallbackQuery, group=1):
     
     elif cb_data == "help":
         buttons = [[
-            InlineKeyboardButton('Home ⚡', callback_data='start'),
+            InlineKeyboardButton('Home 🏠', callback_data='start'),
             InlineKeyboardButton('About 🚩', callback_data='about')
         ],[
             InlineKeyboardButton('Close 🔐', callback_data='close')
